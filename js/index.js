@@ -20,10 +20,12 @@
 
 //   printText(string) {
 //     let printedText = "";
-//     for (let i = 0; i < string.length; i += 1) {
-//       if (this.inkQuantity >= 0.025) {
+
+    // if (string[i] !== " " && this.inkQuantity >= 0.5) {
+//       if (this.inkQuantity >= 0.5) {
 //         printedText += string[i];
-//         this.inkQuantity -= 0.025;
+//         this.inkQuantity -= 0.5;
+
 //       } else {
 //         break;
 //       }
